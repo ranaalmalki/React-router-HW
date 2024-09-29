@@ -1,39 +1,41 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Card(props) {
   return (
-    <div className='flex justify-center gap-7'>
+    <div className='flex justify-center gap-7 '>
+       
         <div className='Card shadow-md shadow-white w-64 h-48 flex justify-center items-center'>
             <div className='card-body flex items-center'>
-               <h2 className='card-title'>{props.title}</h2>
+               <h2 className='card-title'> <Link to="/desert">{props.title}</Link></h2>
 
             </div>
 
         </div>
         <div className='Card shadow-md shadow-white w-64 h-48 flex justify-center items-center'>
             <div className='card-body flex items-center'>
-               <h2 className='card-title'>{props.title2}</h2>
+               <h2 className='card-title'><Link to="/forest">{props.title2}</Link></h2>
 
             </div>
 
         </div>
         <div className='Card shadow-md shadow-white w-64 h-48 flex justify-center items-center'>
             <div className='card-body flex items-center'>
-               <h2 className='card-title'>{props.title3}</h2>
+               <h2 className='card-title'><Link to="/mountains">{props.title3}</Link></h2>
 
             </div>
 
         </div>
         <div className='Card shadow-md shadow-white w-64 h-48 flex justify-center items-center'>
             <div className='card-body flex items-center'>
-               <h2 className='card-title'>{props.title4}</h2>
+               <h2 className='card-title'><Link to="/sea">{props.title4}</Link></h2>
 
             </div>
 
         </div>
         <div className='Card shadow-md shadow-white w-64 h-48 flex justify-center items-center'>
             <div className='card-body flex items-center'>
-               <h2 className='card-title'>{props.title5}</h2>
+               <h2 className='card-title'><Link to="/valley">{props.title5}</Link></h2>
 
             </div>
 
