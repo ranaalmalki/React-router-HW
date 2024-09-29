@@ -3,6 +3,7 @@ import {
   } from "react-router-dom";
 import App from "../App";
 import Desert from "../pages/Desert";
+import Forest from "../pages/Forest";
   const Router = createBrowserRouter([
     {
       path: "/",
@@ -14,7 +15,7 @@ import Desert from "../pages/Desert";
       },
       {
         path: "/forest",
-        element: <App/>,
+        element: <Forest/>,
       },
       {
         path: "//mountains",

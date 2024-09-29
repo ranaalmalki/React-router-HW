@@ -1,4 +1,3 @@
-import Card from "../components/Card"
 import Homepage from "../components/Homepage"
 function Desert() {
   return (
