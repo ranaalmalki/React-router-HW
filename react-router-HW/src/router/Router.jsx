@@ -4,6 +4,7 @@ import {
 import App from "../App";
 import Desert from "../pages/Desert";
 import Forest from "../pages/Forest";
+import Mountains from "../pages/Mountains";
   const Router = createBrowserRouter([
     {
       path: "/",
@@ -18,8 +19,8 @@ import Forest from "../pages/Forest";
         element: <Forest/>,
       },
       {
-        path: "//mountains",
-        element: <App/>,
+        path: "/mountains",
+        element: <Mountains/>,
       },
       {
         path: "/sea",
