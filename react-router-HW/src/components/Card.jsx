@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Card(props) {
   return (
-    <div className='flex justify-center gap-7 '>
+    <div className=' flex justify-center gap-7  lg:flex-row md:flex-col md:items-center'>
        
         <div className='Card shadow-md shadow-white w-64 h-48 flex justify-center items-center bg-white'>
             <div className='card-body flex items-center bg-white'>
