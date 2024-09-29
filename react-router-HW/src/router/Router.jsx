@@ -6,6 +6,7 @@ import Desert from "../pages/Desert";
 import Forest from "../pages/Forest";
 import Mountains from "../pages/Mountains";
 import Sea from "../pages/Sea";
+import Valley from "../pages/valley";
   const Router = createBrowserRouter([
     {
       path: "/",
@@ -29,7 +30,7 @@ import Sea from "../pages/Sea";
       },
       {
         path: "/valley",
-        element: <App/>,
+        element: <Valley/>,
       },
   ]);
   export default Router
